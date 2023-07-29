@@ -1,0 +1,72 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "allowJs": false,
+    "checkJs": false,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/api/*": [
+        "api/*"
+      ],
+      "@/components/*": [
+        "components/*"
+      ],
+      "@/pages/*": [
+        "pages/*"
+      ],
+      "@/layouts/*": [
+        "layouts/*"
+      ],
+      "@/libs/*": [
+        "libs/*"
+      ],
+      "@/helpers/*": [
+        "helpers/*"
+      ],
+      "@/interfaces/*": [
+        "interfaces/*"
+      ],
+      "@/hooks/*": [
+        "hooks/*"
+      ],
+      "@/packages/*": [
+        "packages/*"
+      ],
+      "@/assets/*": [
+        "assets/*"
+      ],
+      "@/contexts/*": [
+        "contexts/*"
+      ],
+    },
+    "types": [
+      "webpack-env"
+    ],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}

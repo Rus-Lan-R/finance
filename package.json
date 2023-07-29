@@ -1,0 +1,60 @@
+{
+  "name": "finance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "sprite-generate": "svg-sprite-generate -d ./assets/icons -o ./public/sprite.svg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rus-Lan-R/finance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rus-Lan-R/finance/issues"
+  },
+  "homepage": "https://github.com/Rus-Lan-R/finance#readme",
+  "devDependencies": {
+    "@types/js-cookie": "^2.2.7",
+    "@types/react": "^17.0.11",
+    "@types/react-transition-group": "^4.4.6",
+    "eslint": "^7.29.0",
+    "eslint-config-next": "^11.0.1",
+    "prettier": "^2.8.8",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "@emotion/babel-plugin": "^11.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@types/webpack-env": "^1.18.1",
+    "axios": "^0.21.4",
+    "full-icu": "^1.5.0",
+    "js-cookie": "^3.0.5",
+    "next": "^11.0.1",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^8.0.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^5.3.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-nested-ancestors": "^2.0.0",
+    "postcss-nesting": "^7.0.1",
+    "postcss-prepend-imports": "^1.0.1",
+    "postcss-preset-env": "^6.7.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-query": "^3.39.3",
+    "sass": "^1.64.1",
+    "style-loader": "^2.0.0",
+    "styled-components": "^6.0.5",
+    "svg-sprite-generator": "0.0.7",
+    "svg-url-loader": "^7.1.1",
+    "webpack-env": "^0.8.0"
+  }
+}
